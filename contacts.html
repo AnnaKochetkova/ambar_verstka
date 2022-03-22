@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styleContacts.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <div class="contacts-main-container">
+        <div class="container-contacts">
+            <h2 class="contacts-main-header">Контакты</h2>
+            <div class="contacts-information">
+                <div class="wrapper-contacts">
+                    <div class="contacts-information__telephone">
+                        <img class="contacts-telephone-image" src="/image/Contacts_phone.png" alt="contacts-telephone-image">
+                        <div class="wrapper-phone-information">
+                            <h3 class="contacts-title-phone">Телефон</h3>
+                            <p class="contacts-phone">8 (800) 775 13 16<br>8 (910) 776 69 36</p>
+                        </div>
+                    </div>
+                    <div class="contacts-information__email">
+                        <img class="contacts-email-image" src="/image/Contacts_mail.png" alt="contacts-email-image">
+                        <div class="wrapper-email-information">
+                            <h3 class="contacts-title-email">Электронная почта</h3>
+                            <h3 class="contacts-title-email_small">Почта</h3>
+                            <a class="contacts-email" href="mailto:dolrom@rambler.ru">dolrom@rambler.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-information__requisites">
+                    <img class="contacts-requisites-image" src="/image/Contacts_requisites.png" alt="contacts-requisites-image">
+                    <div class="wrapper-requisites-information">
+                        <h3 class="contacts-title-requisites">Реквизиты</h3>
+                        <p class="contacts-requisites">
+                            ООО "АМБАР"<br>
+                            ИНН 3305719645 ОГРН 1133332003640<br>
+                            <nobr>Адрес юридический: г. Ковров, ул. 1-ая Большая, д.15</nobr><br>
+                            Адрес фактический: г. Ковров, ул. 1-ая Большая, д.15
+                        </p>
+                        <p class="contacts-requisites_small">
+                            ООО "АМБАР"<br>
+                            <nobr>ИНН 3305719645 ОГРН 1133332003640</nobr><br>
+                            Адрес юридический: г. Ковров,<br> ул. 1-ая Большая, д.15
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="main-container-question-form" action="">
+            <div class="main-container-question">
+                <h2 class="question-title">Задать вопрос</h2>
+                <div class="wrapper-form-question">
+                    <div class="wrapper-form-question__info">
+                        <div class="question-name">
+                            <label class="question-name__label" for="question-name">Имя</label>
+                            <input class="question-name__input" type="text" id="question-name">
+                        </div>
+                        <div class="question-email">
+                            <label class="question-email__label" for="question-email">Почта</label>
+                            <input class="question-email__input" type="email" id="question-email">
+                        </div>
+                    </div>
+                    <div class="wrapper-form-question__message">
+                        <label class="question-message-label" for="question-message">Ваш вопрос</label>
+                        <textarea class="question-message-input" name="question-message" id="" cols="20" rows="5"></textarea>
+                    </div>
+                    <div class="wrapper-form-question__captcha">
+                        <img class="question-captcha-image_small" src="/image/Contacts_captcha-placeholder.png" alt="question-captcha-image">
+                        <div class="question-captcha">
+                            <label class="question-captcha__label" for="question-captcha">Введите слово на картинке</label>
+                            <input class="question-captcha__input" type="text" id="question-captcha">
+                        </div>
+                        <img class="question-captcha-image" src="/image/Contacts_captcha-placeholder.png" alt="question-captcha-image">
+                    </div>
+                </div>
+                <button class="question-button" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
